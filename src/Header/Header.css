@@ -1,0 +1,22 @@
+.HeaderImg{
+
+ width:100%;
+ height:450px;
+ 
+
+}
+.Header{
+
+margin-top:60px;
+
+}
+.HeaderTitle{
+
+align-items: center;
+display: flex;
+flex-direction:column;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:#444;
+
+
+}
