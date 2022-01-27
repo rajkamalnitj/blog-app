@@ -28,7 +28,7 @@ export default function Topbar() {
 
 <div className='topRight'>
   <img  className="topImg" src="https://picsum.photos/seed/picsum/200/300" alt="" /> 
-  <i class="topSearchIcon  fas fa-search-dollar"></i>
+  <i className="topSearchIcon  fas fa-search-dollar"></i>
    </div>
 
   </div>
