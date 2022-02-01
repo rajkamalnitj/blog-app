@@ -1,0 +1,50 @@
+.Login {
+  height:calc(100vh-50px);
+
+
+
+  font-family: sans-serif;
+  text-align: center;
+   margin-top:80px;
+background: url("https://images.pexels.com/photos/4017166/pexels-photo-4017166.jpeg?cs=srgb&dl=pexels-jenny-uhling-4017166.jpg&fm=jpg");
+
+background-size:cover;
+background:linear-gradient(rgba(255,255,255,0.5));
+
+
+
+
+}
+.BUTTONS{
+
+margin-top:20px;
+height: 40px;
+
+}
+.BUTTONS :nth-child(1){
+   float:left;
+    color:#100c08 ;
+     background-color: green;
+border-radius: 10px;
+
+}
+
+.BUTTONS :nth-child(2){
+
+ margin-left:100px;
+
+justify-content: center;
+align-items: center;
+ float: right;
+ background-color:#63bbf2 ;
+ border-radius: 10px;
+}
+.checkboxeprop label{
+
+
+
+margin-left:0px;
+padding:0px;
+
+
+}
