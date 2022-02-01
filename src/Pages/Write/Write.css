@@ -1,0 +1,58 @@
+.writeformgroup textarea{
+
+  width: 80%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+
+}
+.write{
+
+padding-top: 50px;
+padding-left:70px;
+
+
+}
+.writeform{
+
+margin-left:10px;
+
+}
+iconstyle{
+font-weight: 100px;
+border-radius: 50%;
+
+color:red;
+cursor:pointer;
+
+}
+.writeformgroup{
+
+
+  border:none;
+
+}
+
+.writeformgroup textarea {
+
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  }
+  .formtsubmit{
+
+position:absolute;
+
+
+display:flex;
+ float:right;
+
+  margin-left:50%;
+
+  }
