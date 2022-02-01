@@ -1,5 +1,4 @@
-.writeformgroup textarea{
-
+.writeformgroup textarea {
   width: 80%;
   height: 100px;
   padding: 12px 20px;
@@ -9,50 +8,65 @@
   background-color: #f8f8f8;
   font-size: 16px;
   resize: none;
+}
+.write {
+  padding-top: 50px;
+
+   width:100%;
+    margin-left:40px;
+ height:100%;
 
 }
-.write{
-
-padding-top: 50px;
-padding-left:70px;
-
-
+.writeform {
+  margin-left: 40px;
 }
-.writeform{
+iconstyle {
+  font-weight: 100px;
+  border-radius: 50%;
 
-margin-left:10px;
-
+  color: red;
+  cursor: pointer;
 }
-iconstyle{
-font-weight: 100px;
-border-radius: 50%;
-
-color:red;
-cursor:pointer;
-
-}
-.writeformgroup{
-
-
-  border:none;
-
+.writeformgroup {
+  border: none;
+  width:85vw;
 }
 
-.writeformgroup textarea {
-
+.story {
   border: none;
   background-color: transparent;
   resize: none;
   outline: none;
-  }
-  .formtsubmit{
+}
+.formtsubmit {
+  position: absolute;
 
-position:absolute;
+  display: flex;
+  float: right;
+
+  margin-left: 50%;
+
+  margin-top: 20px;
+  color: white;
+  background-color: teal;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
 
 
-display:flex;
- float:right;
+textarea {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    
+}
 
-  margin-left:50%;
+.writeimage{
+ width:70vw;
+ margin-left:30px;
+ object-fit: cover;
+ height:200px;
+border-radius: 20px;
 
-  }
+}

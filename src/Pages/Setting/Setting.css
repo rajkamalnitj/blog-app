@@ -1,0 +1,99 @@
+
+
+
+.setting{
+   display:flex;
+
+}
+.settingwrapper{
+ flex:9;
+
+
+}
+.settingtitle{
+
+display:flex;
+align-items:center;
+justify-content: space-between;
+
+
+}
+.updatetitle{
+
+ font-size: 20px;
+ 
+ margin-bottom:30px;
+color: aqua;
+cursor: pointer;
+}
+.deletetitle{
+
+color:red;
+font-size:20px;
+margin-bottom :30px;
+
+ cursor: pointer;
+
+}
+.settingform{
+
+ display:flex;
+  flex-direction: column;
+
+}
+
+.settingpp{
+display: flex;
+align-items:center;
+margin: 20px 12px 0px;
+
+justify-items: center;
+align-self: center;
+
+}
+.settingpp >img{
+
+
+ width:80px;
+  height:80px;
+  border-radius: 10px;
+align-self: center;
+
+}
+.settingppicon {
+
+   height:20px;
+   width:20px;
+    border-radius: 50%;
+    color:red;
+    justify-content: center;
+    margin-left: 10px;
+     cursor: pointer;
+
+}
+.settingform >label{
+
+font-size: 20px;
+margin-top:10px;
+
+}
+
+.settingform >input{
+  outline: none;
+color:blueviolet;
+height:12px;
+
+border:none;
+border-bottom: 1px solid lightgrey;
+
+}
+.settingupdate{
+
+align-self: center;
+ border-radius:10px;
+  font-size: large;
+
+background-color: green;
+ margin-top:10px;
+cursor:pointer;
+}
