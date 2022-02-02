@@ -7,7 +7,7 @@ export default function Header() {
         <span className="HeaderTitlesm">BLOGG APP</span>
         <span className="HeaderTitlelg"></span>
       </div>
-      <img className="HeaderImg" src="https://images.pexels.com/photos/265667/pexels-photo-265667.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=""/>
+      <img className="HeaderImg" src="https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?cs=srgb&dl=pexels-pixabay-262508.jpg&fm=jpg" alt=""/>
     </div>
   );
 }

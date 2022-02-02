@@ -19,9 +19,8 @@ export default function App() {
       {/* <Write/> */}
       {/* <Setting/> */}
 <Home/>
-     
-    
-
+   
+    {/* <Route path="/login" component={Login}/> */}
 
       
     </Router>
