@@ -1,14 +1,30 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import './Login.css';
-export default function Login() {
+import './Register.css';
+
+export default function Register() {
   return (
-    <div className="Login">
-         <span><b>Login</b></span>
+    <div className="Register">
+
+
+      <span><b>Register</b></span>
       <div className="container">
         <div className="row d-flex justify-content-center">
           <div className=" formwrapper col-md-4">
-            <form id="loginform">
+            <form id="Registerform">
+
+            <div className="form-group">
+                <label>Username</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="usernameInput"
+                  name="usernameInput"
+                  aria-describedby="usenameHelp"
+                  placeholder="Enter  Username"
+                />
+                <small id="emailHelp" className="text-danger form-text"></small>
+              </div>
               <div className="form-group">
                 <label>Email address</label>
                 <input
@@ -43,15 +59,12 @@ export default function Login() {
                 <label className="form-check-label">Check me out</label>
               </div>
               <div className="BUTTONS">
-              <button type="submit" className="btn ">
-                Login
-              </button>
-              <button type="submit" className="btn">Register</button>
-
-</div>
-
+             
+                <button type="submit" className="btn">
+                  Register
+                </button>
+              </div>
             </form>
-         
           </div>
         </div>
       </div>
