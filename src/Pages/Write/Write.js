@@ -23,7 +23,7 @@ export default function Write() {
             placeholder="tell your story"
           />
         </div>
-        <button className=" formtsubmit   btn-outline-primary ">publish</button>
+        <button className=" formtsubmit">publish</button>
       </form>
     </div>
   );
