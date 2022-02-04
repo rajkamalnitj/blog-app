@@ -12,10 +12,9 @@
 .write {
   padding-top: 50px;
 
-   width:100%;
-    margin-left:40px;
- height:100%;
-
+  width: 100%;
+  margin-left: 40px;
+  height: 100%;
 }
 .writeform {
   margin-left: 40px;
@@ -29,7 +28,7 @@ iconstyle {
 }
 .writeformgroup {
   border: none;
-  width:85vw;
+  width: 85vw;
 }
 
 .story {
@@ -54,19 +53,16 @@ iconstyle {
   font-size: 18px;
 }
 
-
 textarea {
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    
+  border: none;
+  outline: none;
+  border-radius: 10px;
 }
 
-.writeimage{
- width:70vw;
- margin-left:30px;
- object-fit: cover;
- height:200px;
-border-radius: 20px;
-
+.writeimage {
+  width: 70vw;
+  margin-left: 30px;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 20px;
 }
