@@ -8,21 +8,20 @@ import Write from './Pages/Write/Write';
 import Setting from './Pages/Setting/Setting';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
-
-import { BrowserRouter as Router,Routes, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <Router>
-      <Topbar />
-      {/* <Single/> */}
-      {/* <Write/> */}
-      {/* <Setting/> */}
-<Home/>
-   
-    {/* <Route path="/login" component={Login}/> */}
-
+    <BrowserRouter>
+    <Routes>
+     
+        <Route path="/login" element={<Login />} />
       
-    </Router>
+
+    </Routes>
+  </BrowserRouter>
+
+
+
   );
 }
