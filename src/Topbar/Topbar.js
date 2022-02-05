@@ -1,7 +1,10 @@
 import React from 'react';
-
+ import {Link} from "react-router-dom"
 import "./topbar.css"
 export default function Topbar() {
+
+   const user=false;
+
   return <div  className='top'>
               
 <div className='topLeft'> 
@@ -14,11 +17,29 @@ export default function Topbar() {
               
 <div className='topCenter'>
   <ul className="topList">
-    <li  className="topListItem" >HOME</li>
-    <li className="topListItem"> ABOUT</li>
-    <li className="topListItem"> CONTACT  </li>
-    <li className="topListItem"> WRITE </li>
-    <li className="topListItem"> LOGOUT  </li>
+
+    <li className="topListItem">
+      <Link to='/' style={{color:"inherit",textDecoration:"none"}}>HOME</Link>
+      </li>
+
+      <li className="topListItem">
+      <Link to='/' style={{color:"inherit",textDecoration:"none"}}>ABOUT</Link>
+      </li>
+
+
+      <li className="topListItem">
+      <Link to='/' style={{color:"inherit",textDecoration:"none"}}>CONTACT</Link>
+      </li>
+      
+      <li className="topListItem">
+      <Link to='/write' style={{color:"inherit",textDecoration:"none"}}>WRITE</Link>
+      </li>
+      
+      <li className="topListItem">
+      {/* <Link to='/' style={{color:"inherit",textDecoration:"none"}}>LOGOUT</Link> */}
+
+      {user &&"LOGOUT"}
+      </li>
 
 
     </ul>
@@ -27,8 +48,28 @@ export default function Topbar() {
    </div>  
 
 <div className='topRight'>
+
+  {
+ user ? ( 
+
+<>
   <img  className="topImg" src="https://picsum.photos/seed/picsum/200/300" alt="" /> 
   <i className="topSearchIcon  fas fa-search-dollar"></i>
+  </>
+    
+
+ ):(
+  <ul className="topList">
+    <li className="topListItem link">
+<Link className="link" to="/login">LOGIN</Link>
+
+</li>
+<li className="topListItem link ">
+<Link className="link" to="/register">REGSITER</Link>
+ </li>
+</ul>
+ )
+ }
    </div>
 
   </div>

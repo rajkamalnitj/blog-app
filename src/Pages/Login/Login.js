@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './Login.css';
+import {Link} from "react-router-dom"
 export default function Login() {
   return (
     <div className="Login">
@@ -46,11 +47,15 @@ export default function Login() {
               <button type="submit" className="btn ">
                 Login
               </button>
-              <button type="submit" className="btn">Register</button>
-
-</div>
-
+          
+           
+               </div>
+           
             </form>
+
+            <button type="submit" className="registerbutton" >
+              <Link className="link" to="/register">Register</Link>
+              </button>
          
           </div>
         </div>

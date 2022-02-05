@@ -21,13 +21,13 @@ height: 40px;
 }
 .BUTTONS :nth-child(1){
    float:left;
-    color:#100c08 ;
-     background-color: green;
+    /* color:#100c08 ; */
+     /* background-color: green; */
 border-radius: 10px;
 
 }
 
-.BUTTONS :nth-child(2){
+.registerbutton{
 
  margin-left:100px;
 

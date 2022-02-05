@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './Register.css';
-
+import {Link} from "react-router-dom"
 export default function Register() {
   return (
     <div className="Register">
@@ -61,10 +61,15 @@ export default function Register() {
               <div className="BUTTONS">
              
                 <button type="submit" className="btn">
+
                   Register
                 </button>
               </div>
             </form>
+            <button type="submit" className="registerbutton" >
+              <Link className="link" to="/login">LOGIN</Link>
+              </button>
+
           </div>
         </div>
       </div>
